@@ -1,14 +1,3 @@
-'''while True:
-    numero = int(input())
-    if numero == 0:
-        break;'''
-
-'''
-Mejor Promedio
-Peor Promedio
-Promedio Grupal
-Promedio Ordenados
-'''
 
 promedios = []
 bestPro = []
@@ -30,10 +19,10 @@ while True:
 promedios.sort(reverse=True)
 final= ProFinal / len(promedios)
 
-print(f'Son tu promedios {promedios}')
-print(f'\n\nMejor Promedio ---{bestPro}')
-print(f'\n\nPeor Promedio --------{failPro}')
-print(f'\n\nPromedio Grupal: ........ {final}')
+print(f'Promedios {promedios}')
+print(f'Mejor Promedio :{bestPro}')
+print(f'Peor Promedio :{failPro}')
+print(f'Promedio Grupal : {final}')
 
 for n in promedios:
     print(f'-----{n}')
